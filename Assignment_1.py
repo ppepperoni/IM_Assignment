@@ -2,13 +2,13 @@ while True:
     
     print("Enter row: ")
     num = int(input())
-    if num == 0:
+    if num <= 0:
         print("You entered 0 in row. Exiting...")
         break
     
     print("Enter column: ")
     num2 = int(input())
-    if num2 == 0:
+    if num2 <= 0:
         print("You entered 0 in column. Exiting...")
         break
     
@@ -23,3 +23,4 @@ while True:
             else:
                 print(f"{result}", end=" ")    
         print()
+
